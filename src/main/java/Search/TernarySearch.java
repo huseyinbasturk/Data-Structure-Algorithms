@@ -31,6 +31,6 @@ public class TernarySearch {
         if(data<array[middle1]) return ternarySearchRecursive(array,data,left,middle1-1);
         if(data>array[middle2]) return ternarySearchRecursive(array,data,middle2+1, right);
         else return ternarySearchRecursive(array,data, middle1+1, middle2-1);
-        return -1;
+     
     } //end ternary
 }
